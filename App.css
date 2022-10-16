@@ -1,0 +1,265 @@
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+margin: 0px;
+}
+
+.page-container {
+height: 100vh;
+display: flex;
+flex-direction: column;
+}
+
+.page-navbar {
+background-color: #0d2436;
+font-family: "Roboto";
+font-size: 20px;
+color: white;
+padding: 20px;
+}
+
+.page-body {
+flex-grow: 1;
+overflow-y: auto;
+display: flex;
+}
+
+.sidebar {
+width: 150px;
+padding: 20px;
+background-color: #e8edf9;
+font-family: "Roboto";
+font-size: 20px;
+flex-shrink: 0;
+overflow-x: scroll;
+}
+
+.im{
+
+  height: 85vh;
+  flex-grow: 1;
+  width: fit-content;
+  background-size: cover;
+}
+
+.img{
+width: 90vw;
+}
+
+@media screen and (min-width: 900px) {
+.image1 {
+  display: none;
+}
+}
+
+@media screen and (max-width: 901px) {
+.image2 {
+  display: none;
+}
+}
+.page-footer {
+background-color: #0d2436;
+font-family: "Roboto";
+font-size: 20px;
+color: white;
+padding: 20px;
+}
+.food-munch-logo {
+width: 80px;
+height: 70px;
+}
+#navItem {
+color:white;
+font-family: "Roboto";
+font-size: 18px;
+}
+.t{
+margin-top: 28px;
+margin-left: 5px;
+font-style: normal;
+font-size: 25px;
+font-family: "Roboto";
+color: white;
+}
+.side-content{
+font-size: 15px;
+font-family: "Roboto";  
+}
+.side-head{
+font-family: "Roboto";
+}
+
+.foot-content{
+font-family: "Roboto";
+color: white;
+margin-top: 0px;
+display: flex;
+flex-direction: row;
+justify-content: end;
+}
+.fc{
+text-align: end;
+font-size: 18px;
+border-radius: 0px;
+background-color: #0d2436;
+color: white;
+margin-right: 50px;
+}
+.explore-menu-section {
+  background-color: white;
+}
+.menu-section-heading {
+  color: #183b56;
+  font-family: "Roboto";
+  font-size: 35px;
+  font-weight: 700;
+  margin-bottom: 20px; 
+}
+.menu-item-image {
+  border-radius: 16px;
+  height: 50vh;
+}
+.menu-card-title {
+  color: #323f4b;
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 24px;
+}
+.menu-item-link {
+  color: #d0b200;
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 500;
+}
+.menu-item-card {
+  border-radius: 16px;
+}
+.wcu-section {
+  background-color:#33FFBC;
+}
+.wcu-section-heading {
+  color: #183b56;
+  font-family: "Roboto";
+  font-size: 28px;
+  font-weight: 700;
+}
+.wcu-section-description {
+  color: #5a7184;
+  font-family: "Roboto";
+  font-size: 16px;
+}
+.wcu-card {
+  text-align: center;
+  background-color: white;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #e5eaf4;
+  border-radius: 16px;
+}
+.wcu-card-image {
+  width: 87px;
+  height: 90px;
+}
+.wcu-card-title {
+  color: #323f4b;
+  font-family: "Roboto";
+  font-size: 22px;
+  font-weight: 500;
+}
+.wcu-card-description {
+  color: #7b8794;
+  font-family: "Roboto";
+  font-size: 16px;
+}
+.offers {
+  color: #323f4b;
+  font-style: italic;
+  font-weight: 600;
+}
+.i1{
+  height: 100px;
+  width: 130px;
+  background-size: cover;
+}
+.follow-us-section {
+  background-color:white;
+}
+.follow-us-section-heading {
+  text-align: center;
+  color: #183b56;
+  font-family: "Roboto";
+  font-size: 28px;
+  font-weight: 700;
+}
+.follow-us-icon-container {
+  background-color: #faf7e8;
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
+  margin: 15px;
+  padding-top: 22px;
+  padding-bottom: 14px;
+  padding-right: 16px;
+  padding-left: 22px;
+}
+.icon {
+  color:gold;
+  font-size: 35px;
+}
+.c{
+  margin: 30px;
+  margin-left: 80px;
+  height: 36px;
+  width: 120px;
+  color: white;
+  font-family: "Roboto";
+}
+.footer-section {
+  background-color:  #ffccff;
+}
+.footer-section-mail-id {
+  color:black;
+  font-family: "Roboto";
+  font-weight: bold;
+  font-size: 16px;
+  margin-top: 20px;
+}
+.footer-section-address {
+  color:black;
+  font-family: "Roboto";
+  font-size: 14px;
+}
+.stylesign
+  {
+    
+    background-image: url("https://images.unsplash.com/photo-1497864149936-d3163f0c0f4b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80");
+    background-size: cover;
+    text-align: center;
+    color: white;
+    padding: 15px;
+  }
+  .textstylehead
+  {
+    font-family:"Roboto";
+font-weight:bold;
+  }
+  .textstylebot
+  {
+    font-family:"Roboto";
+
+  }
+  .outline-button {
+    color: #d0b200;
+    padding:5px;
+    margin-top:8px;
+    width: 130px;
+    height: 45px;
+    border-style: solid;
+    border-width: 1px;
+    border-color:#959ead;
+    border-radius: 8px;
+  }
